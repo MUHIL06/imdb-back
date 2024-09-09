@@ -4,6 +4,6 @@ const router=express.Router();
 router.post("/signUp",SignUp);
 router.post("/signIn",SignIn);
 router.get("/getUser",getUser);
-router.get("/",getMovies);
+router.get("/movies",getMovies);
 router.post("/addmovies",addMovie);
 export default router;
